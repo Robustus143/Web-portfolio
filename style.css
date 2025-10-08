@@ -299,7 +299,7 @@ body {
   }
   .text-block {
     width: 100%;
-    padding: 0 10px;
+    padding: 0 15px;
   }
   .text-block p {
     text-align: left;
@@ -308,7 +308,7 @@ body {
   .shadow-box {
     overflow: hidden;
     flex-wrap: wrap;
-    padding: 10px;
+    padding: 20px;
   }
     nav {
   display: flex;
