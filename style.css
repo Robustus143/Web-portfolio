@@ -295,11 +295,10 @@ body {
 }
 @media (max-width: 600px) {
   #introduction-wrapper {
-    padding: 30px 15px;
+    padding: 25px 10px;
   }
 
   .avatar-block {
-    margin-right: 20px;
     display: flex;
     justify-content: left;
   }
