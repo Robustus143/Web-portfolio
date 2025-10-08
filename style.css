@@ -335,4 +335,7 @@ body {
     gap: 10px;
     padding: 10px;
   }
+  .navbar-wrapper {
+    position: static;
+  }
 }
