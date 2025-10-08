@@ -1,11 +1,15 @@
 html {
   scroll-behavior: smooth;
 }
+* {
+  box-sizing: border-box;
+}
 
 body {
   background-color: #111827;
   padding-top: 80px;
   font-family: sans-serif;
+  overflow-x: hidden;
 }
 
 .navbar-wrapper {
@@ -290,9 +294,19 @@ body {
   100% { transform: translateX(0); opacity: 1; }
 }
 @media (max-width: 600px) {
+  .avatar-block {
+    margin: 0 auto 20px;
+  }
+  .text-block {
+    width: 100%;
+    padding: 0 10px;
+  }
   .text-block p {
     text-align: left;
     padding: 0 10px;
+  }
+  .shadow-box {
+    padding: 10px;
   }
     nav {
   display: flex;
