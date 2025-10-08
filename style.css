@@ -307,6 +307,7 @@ body {
   }
 
   .avatar-block {
+    margin: auto;
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
