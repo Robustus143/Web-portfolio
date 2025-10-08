@@ -295,10 +295,12 @@ body {
 }
 @media (max-width: 600px) {
   #introduction-wrapper {
-    padding: 25px 10px;
+    flex-direction: column;
+    padding: 20px 10px;
   }
 
   .avatar-block {
+    margin-bottom: 20px;
     display: flex;
     justify-content: left;
   }
