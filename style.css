@@ -248,6 +248,9 @@ body {
 .skills-list li:hover {
   transform: scale(1.05);
 }
+.skills-list li:active {
+  transform: scale(1.1);
+}
 #contact {
   padding: 40px;
   text-align: center;
