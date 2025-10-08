@@ -307,7 +307,6 @@ body {
     padding: 0 10px;
   }
   .shadow-box {
-    padding: 10px;
     overflow: hidden;
     flex-wrap: wrap;
   }
