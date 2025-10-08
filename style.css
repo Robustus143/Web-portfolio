@@ -294,10 +294,8 @@ body {
   100% { transform: translateX(0); opacity: 1; }
 }
 @media (max-width: 600px) {
-  #introduction-wrapper {
-    flex-direction: column;
-    align-items: center;
-    padding: 40px 10px;
+  .avatar-block {
+    margin: 0 auto 20px;
   }
   .text-block {
     width: 100%;
