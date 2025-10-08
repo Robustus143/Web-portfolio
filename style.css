@@ -297,12 +297,16 @@ body {
 }
 @media (max-width: 600px) {
   #introduction-wrapper {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
     padding: 20px 10px;
   }
+
   .avatar-block {
-    margin-right: 20px;
+    margin-bottom: 20px;
     display: flex;
-    justify-content: left;
+    justify-content: center;
   }
 
   .text-block {
@@ -319,14 +323,16 @@ body {
 
   .shadow-box {
     padding: 20px;
-    overflow: hidden;
-    flex-wrap: wrap;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
   }
-    nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  padding: 10px;
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
   }
 }
