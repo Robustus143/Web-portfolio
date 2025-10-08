@@ -295,8 +295,7 @@ body {
 }
 @media (max-width: 600px) {
   #introduction-wrapper {
-    flex-direction: column;
-    padding: 40px 20px;
+    padding: 30px 15px;
   }
 
   .avatar-block {
