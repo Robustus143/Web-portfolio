@@ -295,7 +295,7 @@ body {
 }
 @media (max-width: 600px) {
     .avatar-block {
-    margin: 0 auto 20px auto; 
+    margin: 0 auto 5px auto; 
     display: flex;
     justify-content: center;
   }
