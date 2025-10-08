@@ -307,6 +307,8 @@ body {
   }
   .shadow-box {
     padding: 10px;
+    overflow: hidden;
+    flex-wrap: wrap;
   }
     nav {
   display: flex;
