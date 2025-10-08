@@ -336,6 +336,6 @@ body {
     padding: 10px;
   }
   .navbar-wrapper {
-    position: static;
+    position: static !important;
   }
 }
