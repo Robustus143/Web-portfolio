@@ -294,6 +294,10 @@ body {
   100% { transform: translateX(0); opacity: 1; }
 }
 @media (max-width: 600px) {
+  .avatar-block {
+    margin: 0 auto 20px;
+    flex-shrink: 0;
+  }
   .text-block {
     width: 100%;
     padding: 0 10px;
