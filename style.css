@@ -294,7 +294,7 @@ body {
   100% { transform: translateX(0); opacity: 1; }
 }
 @media (max-width: 600px) {
-  .avatar-block {
+  .avatar {
     margin-right: 20px;
     flex-shrink: 0;
   }
