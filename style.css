@@ -294,20 +294,30 @@ body {
   100% { transform: translateX(0); opacity: 1; }
 }
 @media (max-width: 600px) {
-  .avatar-block {
-    margin: 0 auto 20px;
+  #introduction-wrapper {
+    flex-direction: column;
+    padding: 30px 15px;
   }
+
+  .avatar-block {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
   .text-block {
     width: 100%;
-    padding: 0 15px;
-  }
-  .text-block p {
-    text-align: left;
     padding: 0 10px;
   }
+
+  .text-block p {
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.5;
+    word-break: break-word;
+  }
+
   .shadow-box {
-    overflow: hidden;
-    flex-wrap: wrap;
     padding: 20px;
   }
     nav {
