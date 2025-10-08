@@ -47,7 +47,7 @@ body {
 #navbar a:hover {
   color: #a78bfa;
 }
-#introduction, #education {
+#introduction, #education, #skills {
   scroll-margin-top: 100px;
 }
 #introduction-wrapper {
