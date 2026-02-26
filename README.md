@@ -1,3 +1,3 @@
-My first web project using pure HTML/CSS
+Just pure HTML/CSS practice.
 
  https://robustus143.github.io/Web-portfolio/
